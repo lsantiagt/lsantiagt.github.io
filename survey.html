@@ -5,19 +5,22 @@
     <title>Survey</title>
   </head>
   <body>
+
     <p><a href="index.html">Home</a></p>
     <br>
     <h1>Survey</h1>
-    <form>
+    <form action="success.html">  <fieldset>
          First name:<br>
            <input type="text" name="firstname"><br>
          Last name:<br>
            <input type="text" name="lastname"><br> <br>
            <input type="radio" name="gender" value="male" checked> Male<br>
 <input type="radio" name="gender" value="female"> Female<br> <br><br>
-       Do you prefer <input type="radio" name="RaceType" value="Circuit" checked> Circuit
+       Please select type of racing sport you prefer? <input type="radio" name="RaceType" value="Circuit" checked> Circuit
                      <input type="radio" name="RaceType" value="Drag" > Drag Racing <br><br>
-      <input type="button" onclick="alert('Thanks for participating!')" value="Submit">               
+      </fieldset> <br>
+      <button type="submit">Submit your Survey</button>
     </form>
+  </fieldset>
   </body>
 </html>
