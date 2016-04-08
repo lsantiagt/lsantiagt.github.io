@@ -8,17 +8,36 @@ body {background: gray;
     }
 h1 {color: Red;
     text-shadow: 2px 2px 7px black}
-img {box-shadow: 5px 5px 5px 5px black }
+img {box-shadow: 5px 5px 5px 5px black;border-radius: 25px;
+}
 * {font-family: arial, verdana }
 #agenda {padding: 10px;
          border: 2px solid black;
          width: 200px;
          font-weight: bold;
+         border-radius: 15px;
      }
 #things {padding: 10px;
          border: 2px solid black;
          width: 300px;
-         font-weight: bold;}
+         font-weight: bold;
+         border-radius: 15px;}
 .footer, .push {
          	height: 155px; /* .push must be the same height as .footer */
          }
+
+a:link {color: blue;
+       }
+
+a:visited {
+          color: cyan; font-weight: bold;
+          }
+@media only screen and (max-width: 500px)
+   {
+    body {
+          background-color:lightgray;
+         }
+   }
+fieldset {max-width: 400px}
+
+table {border="1"}
